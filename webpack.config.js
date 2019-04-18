@@ -123,7 +123,7 @@ module.exports = () => {
         },
         devtool: (MODE === 'development') ? 'source-map' : false,
         devServer: {
-            contentBase: path.join(__dirname, 'dist'),
+            contentBase: path.join(__dirname),
         },
         resolve: {
             alias: {

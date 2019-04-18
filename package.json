@@ -19,11 +19,12 @@
   },
   "homepage": "https://github.com/englishtom/englishtom.github.io#readme",
   "dependencies": {
+    "lodash": "^4.17.11",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-mousechase": "englishtom/react-mousechase#develop",
     "react-router": "^5.0.0",
-    "react-router-dom": "^5.0.0",
-    "react-mousechase": "englishtom/react-mousechase#develop"
+    "react-router-dom": "^5.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
